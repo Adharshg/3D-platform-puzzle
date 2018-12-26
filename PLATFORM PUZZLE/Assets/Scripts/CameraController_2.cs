@@ -46,16 +46,18 @@ public class CameraController_2 : MonoBehaviour {
 			pivot.Rotate(-vertical, 0, 0);
 		}
 
+
 		//Limit the up/down camera rotation
 		if(pivot.rotation.eulerAngles.x > maxview && pivot.rotation.eulerAngles.x <180f)
 		{
 			pivot.rotation = Quaternion.Euler( maxview, 0, 0);
 		}
-
+		
 		if(pivot.rotation.eulerAngles.x > 180f && pivot.rotation.eulerAngles.x < 300f)
 		{
 			pivot.rotation = Quaternion.Euler( 300f, 0, 0);
 		}
+
 
 		//Move camera based on the current rotation of the target and the original offset
 		float desiredYAngle = pivot.eulerAngles.y;
