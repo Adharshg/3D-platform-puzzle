@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<varlist name="ProjectData">
+	<int name="FileVersion">1</int>
+	<varlist name="MapInfo">
+		<varlist name="Terrain">
+			<int name="nx">512</int>
+			<int name="ny">512</int>
+			<float name="MinAlt">-293.654</float>
+			<float name="MaxAlt">467.997</float>
+			<float name="HorizScale">10</float>
+		</varlist>
+		<varlist name="Texture">
+			<int name="nx">512</int>
+			<int name="ny">512</int>
+		</varlist>
+		<bool name="WrapFlag">false</bool>
+	</varlist>
+	<varlist name="Maps">
+		<varlist name="DM">
+			<string name="Filename">sample_proj_DM.dmf</string>
+			<string name="MapType">DM</string>
+		</varlist>
+		<varlist name="HF">
+			<string name="Filename">sample_proj_HF.hfz</string>
+			<string name="MapType">HF</string>
+			<varlist name="MipMaps">
+				<int name="Step">8</int>
+				<int name="Max">8</int>
+			</varlist>
+		</varlist>
+		<varlist name="WM">
+			<string name="Filename">sample_proj_WM.wmf</string>
+			<string name="MapType">WM</string>
+		</varlist>
+		<varlist name="WS">
+			<string name="Filename">sample_proj_WS.hfz</string>
+			<string name="MapType">HF</string>
+		</varlist>
+		<varlist name="AM">
+			<string name="Filename">sample_proj_AM.amf.gz</string>
+			<string name="MapType">AM</string>
+		</varlist>
+		<varlist name="TN">
+			<string name="Filename">sample_proj_TN.png</string>
+			<string name="MapType">TN</string>
+		</varlist>
+		<varlist name="SH">
+			<string name="Filename">sample_proj_SH.png</string>
+			<string name="MapType">BYTE</string>
+		</varlist>
+		<varlist name="LM">
+			<string name="Filename">sample_proj_LM.jpg</string>
+			<string name="MapType">RGB</string>
+		</varlist>
+		<varlist name="SpecLM">
+			<string name="Filename">sample_proj_SpecLM.png</string>
+			<string name="MapType">RGB</string>
+		</varlist>
+		<varlist name="TX">
+			<string name="Filename">sample_proj_TX.jpg</string>
+			<string name="MapType">RGB</string>
+		</varlist>
+	</varlist>
+	<varlist name="Climates">
+		<varlist name="Temperate">
+			<string name="Filename">C:\Users\Adharsh Gajendran\L3DT\Resources\Std 16.05.3.1\Climates\temperate26\Temperate26.cli.xml</string>
+		</varlist>
+	</varlist>
+</varlist>
