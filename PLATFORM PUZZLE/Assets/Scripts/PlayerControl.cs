@@ -46,7 +46,7 @@ public class PlayerControl : MonoBehaviour {
 			moveDirection.y = yStore;
 			if(controller.isGrounded)
 			{
-				moveDirection.y = 0f;
+				moveDirection.y = -20f;
 
 				if(Input.GetButtonDown("Jump"))
 				{
