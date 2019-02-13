@@ -48,14 +48,14 @@ public class CameraController_2 : MonoBehaviour {
 
 
 		//Limit the up/down camera rotation
-		if(pivot.rotation.eulerAngles.x > maxview && pivot.rotation.eulerAngles.x <180f)
+		if(pivot.rotation.eulerAngles.x > maxview && pivot.rotation.eulerAngles.x <160f)
 		{
-			pivot.rotation = Quaternion.Euler( maxview, 0, 0);
+			pivot.rotation = Quaternion.Euler( maxview, pivot.rotation.eulerAngles.y, pivot.rotation.eulerAngles.z);
 		}
 		
-		if(pivot.rotation.eulerAngles.x > 180f && pivot.rotation.eulerAngles.x < 300f)
+		if(pivot.rotation.eulerAngles.x > 160f && pivot.rotation.eulerAngles.x < 345f)
 		{
-			pivot.rotation = Quaternion.Euler( 300f, 0, 0);
+			pivot.rotation = Quaternion.Euler( 345f, pivot.rotation.eulerAngles.y, pivot.rotation.eulerAngles.z);
 		}
 
 
