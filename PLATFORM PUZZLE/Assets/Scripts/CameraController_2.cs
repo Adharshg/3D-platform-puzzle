@@ -53,9 +53,9 @@ public class CameraController_2 : MonoBehaviour {
 			pivot.rotation = Quaternion.Euler( maxview, pivot.rotation.eulerAngles.y, pivot.rotation.eulerAngles.z);
 		}
 		
-		if(pivot.rotation.eulerAngles.x > 160f && pivot.rotation.eulerAngles.x < 345f)
+		if(pivot.rotation.eulerAngles.x > 160f && pivot.rotation.eulerAngles.x < 300f)
 		{
-			pivot.rotation = Quaternion.Euler( 345f, pivot.rotation.eulerAngles.y, pivot.rotation.eulerAngles.z);
+			pivot.rotation = Quaternion.Euler( 300f, pivot.rotation.eulerAngles.y, pivot.rotation.eulerAngles.z);
 		}
 
 
